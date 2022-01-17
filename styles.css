@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #ff0e0e;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 40rem;
+  padding: 5rem 3rem;
+  border:1px solid cyan;
+  border-radius: 5px;
+}
+
+.main {
+  width: 100%;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 70%;
+  padding: 1rem 5px;
+  outline: none;
+  border: none;
+  border: 2px solid cyan;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 4rem;
+}
+
+button {
+  width: 25%;
+  padding: 1.4rem;
+  outline: none;
+  border-radius: 3px;
+  background-color: cyan;
+  color: black;
+  border: none;
+}
+
+p.result {
+  margin-top: 3.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+li{
+  text-align: center;
+  list-style: none;
+  border:1px solid white;
+  font-size: 1.5rem;
+  width:50%;
+  padding: 1rem;
+  margin: 10px 80px ;
+}
+ul{
+  color:white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  text-align: center;
+  font-size:15px;
+  background-color:grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  padding:10px;
+}
+a{
+  text-decoration:none;
+  color:yellow;
+}
+
+
